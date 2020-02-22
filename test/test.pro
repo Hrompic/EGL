@@ -2,6 +2,6 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
-
+LIBS += -lSDL2 -lEGL -lGLESv1_CM
 SOURCES += \
-        main.c
+        1.c
